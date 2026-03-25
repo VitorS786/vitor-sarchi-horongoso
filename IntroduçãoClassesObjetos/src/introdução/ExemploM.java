@@ -70,6 +70,29 @@ public class ExemploM {
             menor = unidadeDeFlorianopolis;
         }
         System.out.println("menor receita com laranjas: " + menor.nomeMercado);
+        
+        
+        
+        //calculo de Blumenau das maças e laranjas para dps fazer o calculo pra ter o resultado da segunda maior receita
+        // supostamente dps usando o if pra sabr segundo maior 
+        double B1 = unidadeDeBlumenau.macaVendidaAno * unidadeDeBlumenau.precoMaca;
+        double B2 = unidadeDeBlumenau.laranjaVendidaAno * unidadeDeBlumenau.precoLaranja;
+        
+        
+        double J1 = unidadeDeJoinville.macaVendidaAno * unidadeDeJoinville.precoMaca;
+        double J2 = unidadeDeJoinville.laranjaVendidaAno * unidadeDeJoinville.precoLaranja;
+        
+        double F1 = unidadeDeFlorianopolis.macaVendidaAno * unidadeDeFlorianopolis.precoMaca;
+        double F2 = unidadeDeFlorianopolis.laranjaVendidaAno * unidadeDeFlorianopolis.precoMaca;
+        
+        double Soma1 = B1 + B2;
+        double Soma2 = J1 + J2;
+        double Soma3 = F1 + F2;
+        
+        		
+        if()
+        
+        
 		
 }
 	
